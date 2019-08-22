@@ -68,7 +68,7 @@ const receiveMessage = async data => {
         logger(resp.payload)
     }
     catch (e) {
-        // console.log(e)
+        alert(e)
     }
 }
 
